@@ -1,0 +1,19 @@
+diff --git a/keras_logistic.py b/keras_logistic.py
+index a6ca1f4..5224b44 100644
+--- a/keras_logistic.py
++++ b/keras_logistic.py
+@@ -12,6 +12,7 @@ run = wandb.init()
+ config = run.config
+ 
+ # load data
++#config Object
+ (X_train, y_train), (X_test, y_test) = mnist.load_data()
+ img_width = X_train.shape[1]
+ img_height = X_train.shape[2]
+@@ -34,5 +35,5 @@ model.compile(loss='categorical_crossentropy', optimizer='adam',
+               metrics=['accuracy'])
+ model.summary()
+ # Fit the model
+-model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test),
++model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test),
+           callbacks=[WandbCallback(data_type="image", labels=labels, save_model=False)])

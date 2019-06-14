@@ -1,0 +1,21 @@
+{
+    "root": "/home/jovyan/ANN",
+    "git": {
+        "remote": "https://github.com/aksj98/ANN.git",
+        "commit": "efe58ecb30b183e28c03a34bed22381eca5dc3dc"
+    },
+    "email": "akshaj.jain@gmail.com",
+    "startedAt": "2019-06-14T13:22:07.727192",
+    "host": "jupyter-aksj98",
+    "username": "jovyan",
+    "os": "Linux-4.14.119+-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "cpu_count": 2,
+    "program": "keras_logistic.py",
+    "args": [],
+    "state": "failed",
+    "heartbeatAt": "2019-06-14T13:22:09.525646",
+    "jobType": null,
+    "mode": "run",
+    "exitcode": 1
+}

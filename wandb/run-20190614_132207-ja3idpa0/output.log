@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "keras_logistic.py", line 18, in <module>
+    config.image_height=img_height
+NameError: name 'img_height' is not defined

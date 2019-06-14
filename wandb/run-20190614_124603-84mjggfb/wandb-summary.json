@@ -1,0 +1,101 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_1_input",
+                "id": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_1",
+                "id": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 7850
+            }
+        ],
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dense_1"
+            ]
+        ]
+    },
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            0,
+            0,
+            2,
+            8,
+            5,
+            8,
+            6,
+            7,
+            7,
+            8,
+            2,
+            0,
+            5,
+            0,
+            1,
+            7,
+            0,
+            6,
+            5,
+            7,
+            7,
+            1,
+            8,
+            3,
+            5,
+            3,
+            2,
+            0,
+            2,
+            3,
+            2,
+            0,
+            1,
+            8,
+            3,
+            8
+        ]
+    },
+    "loss": 4.256420547962189,
+    "val_acc": 0.7345,
+    "val_loss": 4.26852803516388,
+    "epoch": 9,
+    "acc": 0.7344333333333334,
+    "_runtime": 29.6343777179718,
+    "_timestamp": 1560516393.307884,
+    "_step": 9
+}
