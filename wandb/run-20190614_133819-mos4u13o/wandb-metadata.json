@@ -1,0 +1,21 @@
+{
+    "root": "/home/jovyan/ANN",
+    "git": {
+        "remote": "https://github.com/aksj98/ANN.git",
+        "commit": "038facc8b6826cb7d054d777f8089828cbe41cdc"
+    },
+    "email": "akshaj.jain@gmail.com",
+    "startedAt": "2019-06-14T13:38:19.865632",
+    "host": "jupyter-aksj98",
+    "username": "jovyan",
+    "os": "Linux-4.14.119+-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "cpu_count": 2,
+    "program": "keras_perceptron.py",
+    "args": [],
+    "state": "finished",
+    "heartbeatAt": "2019-06-14T13:39:15.658604",
+    "jobType": null,
+    "mode": "run",
+    "exitcode": 0
+}
